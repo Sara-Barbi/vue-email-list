@@ -15,7 +15,14 @@
 
 
     <div id="root">
-        {{email()}}
+        <div v-if="arrayEmail.length==10">
+            <ol class="text-center">
+                <li v-for= "email in arrayEmail">
+                    {{email}}
+                </li>
+            </ol>
+        </div>
+        <div class="text-center" v-else>stanno arrivando 10 e-mail !!</div>
 
     </div>
 
