@@ -29,11 +29,7 @@ const app = new Vue({
         for(let i=0; i<10; i++){
             this.carica()
         }
-        
-        
-        
-        
-        
+      
       }
 
     
